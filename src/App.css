@@ -40,7 +40,8 @@ box-shadow: inset 125px 0px 1380px -125px rgba(4,4,4,0.95);
   justify-content: space-evenly;
   flex-wrap: wrap;
   margin: 0;
-  
+  margin-bottom: 100px;
+
 }
 .radio-station {
     display: block;
@@ -92,7 +93,30 @@ i.icons{
   margin: 0 auto;
   text-align: center;
 }
-
+.rhap_container {
+  background-color: rgba(91,85,131, 90%)!important;
+  position: fixed;
+  bottom: 0;
+}
+.rhap_time {
+  color: #fefefe!important;
+  font-size: 16px;
+  font-weight: 500!important;
+}
+.rhap_progress-indicator {
+  background: #fefefe!important;
+}
+.rhap_progress-bar-show-download {
+  background-color: #fefefe!important;
+}
+.rhap_container svg {
+  vertical-align: initial;
+  color: #fefefe;
+}
+.rhap_volume-indicator {
+  background: #fefefe!important;
+  opacity: 1!important;
+}
 @media screen and (max-width: 375px){
   .App {
     display: block;
@@ -104,3 +128,5 @@ i.icons {
   font-size: 30vw;
 }
 }
+
+
