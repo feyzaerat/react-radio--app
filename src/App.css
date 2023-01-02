@@ -43,6 +43,10 @@ box-shadow: inset 125px 0px 1380px -125px rgba(4,4,4,0.95);
   margin-bottom: 100px;
 
 }
+.web-link{
+  text-decoration: none;
+  color: #fefefe;
+}
 .radio-station {
     display: block;
     flex: 1 1;

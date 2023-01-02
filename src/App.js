@@ -15,7 +15,7 @@ const changeUrl = (url) => {
 
   return (
     <div>
-     <div className='header'>Radio</div>
+     <div className='header'><a className='web-link' href='https://feyzaerat.com.tr'>FKE</a> Radio</div>
      <div className = "App">
       {DATA.map((item) => {return (
         <div className='radio-station card-shadow'>
@@ -29,10 +29,9 @@ const changeUrl = (url) => {
      </div>
      <div>
      <Audioplayer
-     showJumpControls={false}
-    src={url}
     onPlay={e => console.log("onPlay")}
-    // other props here
+    showJumpControls={false}
+    src={url}
   />
      </div>
     </div>
