@@ -121,16 +121,38 @@ i.icons{
   background: #fefefe!important;
   opacity: 1!important;
 }
+
+@media screen and (max-width: 500px){
+  .radio-station {
+    display: block;
+    padding: 35px 10px 10px 10px;
+    margin: 3vw 2vw 2vw 2vw;
+    border-radius: 0.5vw;
+    width: 100%;
+    height: 280px;
+    min-width: 180px;
+    text-align: center;
+    max-width: 250px;
+    max-height: 280px;
+    background: linear-gradient(
+  to right,
+  rgba(148, 123, 185, 90%),
+  rgba(91,85,131,90%)
+  );
+}
+}
 @media screen and (max-width: 375px){
   .App {
     display: block;
 }
 .radio-station {
-  margin: 10vw 20vw 10vw 20vw;
+  margin: 3rem auto;
 }
+
 i.icons {
   font-size: 30vw;
 }
 }
+
 
 
