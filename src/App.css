@@ -122,6 +122,22 @@ i.icons{
   opacity: 1!important;
 }
 
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 5vw 1vw;
+  color: #fefefe;
+  font-size: 8px;
+  font-style: italic;
+  font-weight: 100;
+}
+.web-target{
+  text-decoration: none;
+  color: #fefefe;
+  font-weight: 500;
+}
+
 @media screen and (max-width: 500px){
   .radio-station {
     display: block;
